@@ -1,0 +1,43 @@
+
+<sysctl>
+	<item>
+		<tunable>hw.intr_storm_threshold</tunable>
+		<value>10000</value>
+		<descr><![CDATA[intel IX tunable]]></descr>
+	</item>
+	<item>
+		<tunable>dev.igb.0.eee_disabled</tunable>
+		<value>1</value>
+		<descr><![CDATA[Disable energy efficient ethernet]]></descr>
+	</item>
+	<item>
+		<tunable>dev.igb.1.eee_disabled</tunable>
+		<value>1</value>
+		<descr><![CDATA[Disable energy efficient ethernet]]></descr>
+	</item>
+	<item>
+		<tunable>legal.intel_ipw.license_ack</tunable>
+		<value>1</value>
+		<descr><![CDATA[Accept Intel License]]></descr>
+	</item>
+	<item>
+		<tunable>legal.intel_iwi.license_ack</tunable>
+		<value>1</value>
+		<descr><![CDATA[Accept Intel License]]></descr>
+	</item>
+	<item>
+		<tunable>kern.ipc.nmbclusters</tunable>
+		<value>1000000</value>
+		<descr><![CDATA[Intel tunable]]></descr>
+	</item>
+	<item>
+		<tunable>net.inet6.ip6.redirect</tunable>
+		<value>0</value>
+		<descr><![CDATA[Send ICMPv6 redirects for unforwardable IPv6 packets]]></descr>
+	</item>
+	<item>
+		<tunable>net.inet.ip.redirect</tunable>
+		<value>0</value>
+		<descr><![CDATA[Enable sending IP redirects]]></descr>
+	</item>
+</sysctl>
